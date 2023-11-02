@@ -9,14 +9,14 @@ Site vitrine générique intégré à partir d'une maquette figma
 ## Sellx_cp
 
 Copie du design et du style site de présentation d'une entreprise [sellx](https://www.sellx.com/)
-![Screenshot sellx]()
+![Screenshot sellx](https://github.com/Aissam-salman/Show_project/blob/6c02d7ff806d31a7fbba348856617cdde8f51cea/sellx_cp/screenshot-sellx.png)
 **techno:** 
 - _html_
 - _css_
 
 ## Social network 
 Front-end d'un réseau social
-![Screenshot social]()
+![Screenshot social](https://github.com/Aissam-salman/Show_project/blob/6c02d7ff806d31a7fbba348856617cdde8f51cea/social/screenshot-social.png)
 **techno:** 
 - _html_
 - _css_

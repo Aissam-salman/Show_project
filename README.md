@@ -1,6 +1,6 @@
 # My projects
 ## neo_cp
-![Screenshot_neo_cp]([https://framasoft.org/nav/img/logo.png](https://github.com/Aissam-salman/Show_project/blob/main/neo_cp/screenshot-neo_cp.png?raw=true))
+![Screenshot_neo_cp](https://github.com/Aissam-salman/Show_project/blob/cb2519d173759bf201677683b4e5af8908ec597e/neo_cp/screenshot-neo_cp.png)
 Site vitrine générique intégré à partir d'une maquette figma 
 **techno:** 
 - _html_

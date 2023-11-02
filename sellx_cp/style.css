@@ -1,0 +1,442 @@
+body {
+    line-height: 1;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, abbr, address, code, del, dfn, em, img, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000080;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    font-family: "Neue Montreal", sans-serif;
+}
+
+/* navbar */
+
+.header {
+    border-bottom: #2a2928 1px dashed;
+}
+
+.header__logo-home {
+    height: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 16px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 350ms;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: rgb(59, 59, 59);
+}
+
+.header__menu li {
+    list-style-type: none;
+}
+.header__menu > ul > li {
+    float: left;
+}
+.header__sub-menu {
+    display: none;
+}
+
+
+.footer {
+    background-color: hsl(230, 30%, 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container-ft p {
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(35deg, hsl(51, 30%, 52%), hsl(199, 53%, 66%));
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.container-ft p::after {
+    content: "👌";
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+.header__connexion-button {
+    display: flex;
+    align-items: center;
+}
+
+.lien-connexion,
+.button {
+    text-transform: capitalize;
+}
+
+.button {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.button:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero-content, .container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-one {
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.hero-title {
+    font-size: 10vw;
+    flex: 0 0 auto;
+}
+
+.hero-bar {
+    width: 20%;
+    height: 2px;
+    margin-left: 64px;
+    background-color: #3e3e3c;
+}
+
+
+/* div 2 */
+
+.hero-two {
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+}
+
+
+/*avatar */
+
+
+.two-title {
+    font-style: italic;
+    font-family: serif;
+    font-size: 10vw;
+}
+
+
+.content-avatar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 16px;
+    z-index: 1;
+    margin-left: 64px;
+}
+
+.one {
+    width: 88px;
+    height: 88px;
+    margin-left: 12px;
+    background-image: url("https://api.dicebear.com/5.x/adventurer/svg?seed=Tiger&backgroundType=gradientLinear&backgroundColor=c0aede,d1d4f9,b6e3f4");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.av-two {
+    width: 88px;
+    height: 88px;
+    margin-left: 12px;
+    background-image: url("https://api.dicebear.com/5.x/adventurer/svg?seed=Luna&backgroundType=gradientLinear&backgroundColor=c0aede,d1d4f9,b6e3f4");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.av-three {
+    width: 88px;
+    height: 88px;
+    margin-left: 12px;
+    background-image: url("https://api.dicebear.com/5.x/adventurer/svg?seed=Willow&backgroundType=gradientLinear&backgroundColor=c0aede,d1d4f9,b6e3f4");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.back-draw-hero {
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 0;
+}
+
+
+.hero-three {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.three-title {
+    font-size: 10vw;
+    flex: 0 0 auto;
+}
+
+.block-three {
+    max-width: 400px;
+    margin-top: 62px;
+    margin-left: 5%;
+}
+
+.para-three {
+    margin-top: 0;
+    margin-bottom: 48px;
+    position: relative;
+    font-size: 24px;
+    z-index: 6;
+    line-height: 1.5;
+}
+span {
+    color: #d2d0fb;
+    font-style: italic;
+    font-family: serif;
+}
+.icon-btn {
+    cursor: pointer;
+    max-width: 100%;
+    display: flex;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 3px solid hsla(0, 0%, 100%, 0);
+    border-radius: 200px;
+    background-color: #fff;
+    transition: .2s;
+    color: #000;
+    margin-top: 56px;
+    width: 100px;
+    height: 100px;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding: 25px;
+}
+
+.icon-btn:hover {
+    border: 3px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+/*section firm */
+
+.sub-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.grid-firm {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 1px #2a2928;
+    border-style: dashed dashed dashed none;
+    margin: 0 10px;
+}
+
+.logo {
+    border: 1px #2a2928;
+    border-style: dashed dashed dashed none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.firm {
+    padding-bottom: 0;
+}
+
+/* section number */
+
+.container-number {
+    display: flex;
+}
+
+.wrapper-left {
+    border-bottom: 1px solid #2a2928;
+    width: 60%;
+    position: relative;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 48px 48px;
+    position: sticky;
+    top: 150px;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+}
+
+.left p {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.hr-number-content {
+    width: 2px;
+    height: 40px;
+    background-color: #3e3e3c;
+    margin-bottom: 16px;
+}
+
+.left h2 {
+    font-size: 72px;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 56px;
+    display: block;
+}
+
+.btn-cta {
+    display: flex;
+}
+.btn-cta a {
+    height: 56px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: #fff;
+    transition: .2s;
+    color: #000000;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 28px;
+}
+
+.btn-cta a:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.vide {
+    height: 100px;
+    background-color: #000;
+}
+
+.right {
+    width: 40%;
+    border-left: 1px solid #2a2928;
+}
+
+.cont-right {
+    padding: 80px 72px;
+    border-bottom: 1px solid #2a2928;
+}
+
+.title-display {
+    font-size: 120px;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    font-family: serif;
+}
+
+.sub-title-display {
+    font-size: 20px;
+    padding-bottom: 4px;
+    color: #918f8d;
+}
+
+.footer {
+    position: relative;
+    padding-top: 140px;
+    background-color: #000;
+    border-top: 1px solid #2a2928;
+    overflow: hidden;
+}
